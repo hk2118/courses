@@ -1,0 +1,69 @@
+.learn_image{
+    /* background-image: url('e-learn.png'); */
+    background-color: black;
+    width:100%;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+.image_inner{
+    color: whitesmoke;
+}
+.inner_content{
+   width:80%;
+   margin-left: 10%;
+   margin-top: 20px;
+}
+.flexrow1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:black;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.1);
+}
+.card-text img{
+    margin-left: 10px;
+}
+.Categories1 div,.Categories2 div{
+    background-color: black;
+    color: white;
+    width:300px;
+    padding: 100px;
+    text-align: center;
+    margin:20px ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Categories1,.Categories2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Languages div{
+    background-color: black;
+    color: white;
+    width:45%;
+    padding: 20px 20px;
+    text-align: center;
+    margin:20px ;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    font-style:bold;
+}
+.Languages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 20px;
+}
